@@ -1,0 +1,35 @@
+{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+	display: flex;
+	background-color: rgb(30, 144, 255);
+	justify-content: space-around;
+	padding: 20px 0;
+	color: rgb(173, 216, 230);
+}
+
+nav.logo {
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 3px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	width: 40%;
+	justify-content: space-between;
+	background-color: black;
+
+}
+
+nav ul li a {
+	color: rgb(173, 216, 230);
+	text-decoration: none;
+}
